@@ -2,7 +2,7 @@
 
 A fast, single-page portfolio for a security researcher & penetration tester, built with **React 19 + Vite + Tailwind CSS v4** and deployed to **GitHub Pages**.
 
-**Live site:** https://nithiya-rajesh.github.io/Cybersecurity-Portfolio
+**Live site:** https://nithiya-rajesh.github.io/Portfolio
 
 ---
 
@@ -75,7 +75,6 @@ Two options are wired up:
 1. **Automatic (recommended)** — pushing to `main` triggers `.github/workflows/deploy.yml`, which builds and publishes to GitHub Pages. Enable it once under **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 2. **Manual** — `npm run deploy` builds and pushes `dist/` to the `gh-pages` branch via the `gh-pages` package.
 
-> ⚠️ **Important:** `vite.config.js` has `base: "/Cybersecurity-Portfolio/"`. This **must exactly match your repository name**, or CSS/JS will 404 on the live site. If you rename the repo, update `base` and the `homepage` field in `package.json`.
 
 ---
 
